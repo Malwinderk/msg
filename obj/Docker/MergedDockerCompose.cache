@@ -1,0 +1,69 @@
+services:
+  assignment.apigateway:
+    build:
+      context: D:\NAGP\NAGPAssignment\Assignment
+      dockerfile: Assignment.ApiGateway/Dockerfile
+    container_name: assignment.apigateway
+    depends_on:
+    - myeurekaserver
+    image: assignmentapigateway
+    ports:
+    - published: 5006
+      target: 80
+  assignment.delivermanagementservice:
+    build:
+      context: D:\NAGP\NAGPAssignment\Assignment
+      dockerfile: DeliverManagementService/Dockerfile
+    container_name: assignment.delivermanagementservice
+    depends_on:
+    - myeurekaserver
+    - rabbitmq
+    image: assignmentdelivermanagementservice
+  assignment.inventoryservice:
+    build:
+      context: D:\NAGP\NAGPAssignment\Assignment
+      dockerfile: Assignment.InventoryService/Dockerfile
+    container_name: assignment.inventoryservice
+    depends_on:
+    - myeurekaserver
+    image: assignmentinventoryservice
+  assignment.loginservice:
+    build:
+      context: D:\NAGP\NAGPAssignment\Assignment
+      dockerfile: Assignment.LoginService/Dockerfile
+    container_name: assignment.loginservice
+    depends_on:
+    - myeurekaserver
+    image: assignmentloginservice
+  assignment.ordermanagementservice:
+    build:
+      context: D:\NAGP\NAGPAssignment\Assignment
+      dockerfile: OrderManagementService/Dockerfile
+    container_name: assignment.ordermanagementservice
+    depends_on:
+    - myeurekaserver
+    - rabbitmq
+    image: assignmentordermanagementservice
+  assignment.paymentmanagementservice:
+    build:
+      context: D:\NAGP\NAGPAssignment\Assignment
+      dockerfile: PaymentManagementService/Dockerfile
+    container_name: assignment.paymentmanagementservice
+    depends_on:
+    - myeurekaserver
+    image: assignmentpaymentmanagementservice
+  myeurekaserver:
+    container_name: myeurekaserver
+    image: steeltoeoss/eureka-server
+    ports:
+    - published: 8761
+      target: 8761
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+version: '3.4'

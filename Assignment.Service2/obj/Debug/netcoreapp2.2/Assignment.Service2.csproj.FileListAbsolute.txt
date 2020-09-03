@@ -1,0 +1,17 @@
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\bin\Debug\netcoreapp2.2\appsettings.json
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\obj\Debug\netcoreapp2.2\Assignment.Service2.csproj.CoreCompileInputs.cache
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\obj\Debug\netcoreapp2.2\Assignment.Service2.AssemblyInfoInputs.cache
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\obj\Debug\netcoreapp2.2\Assignment.Service2.AssemblyInfo.cs
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\bin\Debug\netcoreapp2.2\Assignment.Service2.deps.json
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\bin\Debug\netcoreapp2.2\Assignment.Service2.runtimeconfig.json
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\bin\Debug\netcoreapp2.2\Assignment.Service2.runtimeconfig.dev.json
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\bin\Debug\netcoreapp2.2\Assignment.Service2.dll
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\bin\Debug\netcoreapp2.2\Assignment.Service2.pdb
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\obj\Debug\netcoreapp2.2\Assignment.Service2.csprojAssemblyReference.cache
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\obj\Debug\netcoreapp2.2\Assignment.Service2.RazorAssemblyInfo.cache
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\obj\Debug\netcoreapp2.2\Assignment.Service2.RazorAssemblyInfo.cs
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\obj\Debug\netcoreapp2.2\Assignment.Service2.RazorTargetAssemblyInfo.cache
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\obj\Debug\netcoreapp2.2\Assignment.Service2.dll
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Service2\obj\Debug\netcoreapp2.2\Assignment.Service2.pdb

@@ -1,0 +1,6 @@
+D:\NAGP\NAGPAssignment\Assignment\DeliverManagementService\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\NAGP\NAGPAssignment\Assignment\DeliverManagementService\bin\Debug\netcoreapp2.2\appsettings.json
+D:\NAGP\NAGPAssignment\Assignment\DeliverManagementService\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\NAGP\NAGPAssignment\Assignment\DeliverManagementService\obj\Debug\netcoreapp2.2\DeliverManagementService.csproj.CoreCompileInputs.cache
+D:\NAGP\NAGPAssignment\Assignment\DeliverManagementService\obj\Debug\netcoreapp2.2\DeliverManagementService.AssemblyInfoInputs.cache
+D:\NAGP\NAGPAssignment\Assignment\DeliverManagementService\obj\Debug\netcoreapp2.2\DeliverManagementService.AssemblyInfo.cs

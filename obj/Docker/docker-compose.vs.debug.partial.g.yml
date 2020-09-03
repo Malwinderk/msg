@@ -1,0 +1,151 @@
+version: '3.4'
+
+services:
+  assignment.apigateway:
+    image: assignmentapigateway:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Assignment.ApiGateway"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_assignment.apigateway$
+    volumes:
+      - D:\NAGP\NAGPAssignment\Assignment\Assignment.ApiGateway:/app
+      - C:\Users\malwinderkaur\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_assignment.apigateway$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_assignment.apigateway$ \"bin/Release/netcoreapp2.2/Assignment.ApiGateway.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+  assignment.delivermanagementservice:
+    image: assignmentdelivermanagementservice:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "DeliverManagementService"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_assignment.delivermanagementservice$
+    volumes:
+      - D:\NAGP\NAGPAssignment\Assignment\DeliverManagementService:/app
+      - C:\Users\malwinderkaur\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_assignment.delivermanagementservice$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_assignment.delivermanagementservice$ \"bin/Release/netcoreapp2.2/DeliverManagementService.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+
+  assignment.inventoryservice:
+    image: assignmentinventoryservice:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Assignment.InventoryService"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_assignment.inventoryservice$
+    volumes:
+      - D:\NAGP\NAGPAssignment\Assignment\Assignment.InventoryService:/app
+      - C:\Users\malwinderkaur\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_assignment.inventoryservice$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_assignment.inventoryservice$ \"bin/Release/netcoreapp2.2/Assignment.InventoryService.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+
+  assignment.loginservice:
+    image: assignmentloginservice:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Assignment.LoginService"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_assignment.loginservice$
+    volumes:
+      - D:\NAGP\NAGPAssignment\Assignment\Assignment.LoginService:/app
+      - C:\Users\malwinderkaur\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_assignment.loginservice$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_assignment.loginservice$ \"bin/Release/netcoreapp2.2/Assignment.LoginService.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+
+  assignment.ordermanagementservice:
+    image: assignmentordermanagementservice:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "OrderManagementService"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_assignment.ordermanagementservice$
+    volumes:
+      - D:\NAGP\NAGPAssignment\Assignment\OrderManagementService:/app
+      - C:\Users\malwinderkaur\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_assignment.ordermanagementservice$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_assignment.ordermanagementservice$ \"bin/Release/netcoreapp2.2/OrderManagementService.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+
+  assignment.paymentmanagementservice:
+    image: assignmentpaymentmanagementservice:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "PaymentManagementService"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_assignment.paymentmanagementservice$
+    volumes:
+      - D:\NAGP\NAGPAssignment\Assignment\PaymentManagementService:/app
+      - C:\Users\malwinderkaur\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_assignment.paymentmanagementservice$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_assignment.paymentmanagementservice$ \"bin/Release/netcoreapp2.2/PaymentManagementService.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+

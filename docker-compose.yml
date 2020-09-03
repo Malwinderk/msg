@@ -1,0 +1,76 @@
+version: '3.4'
+
+services:
+  assignment.loginservice:
+    image: ${DOCKER_REGISTRY-}assignmentloginservice
+    build:
+      context: .
+      dockerfile: Assignment.LoginService/Dockerfile
+    depends_on:
+        - myeurekaserver
+    container_name: assignment.loginservice
+
+  assignment.inventoryservice:
+    image: ${DOCKER_REGISTRY-}assignmentinventoryservice
+    build:
+      context: .
+      dockerfile: Assignment.InventoryService/Dockerfile
+    depends_on:
+        - myeurekaserver
+    container_name: assignment.inventoryservice
+
+  assignment.delivermanagementservice:
+    image: ${DOCKER_REGISTRY-}assignmentdelivermanagementservice
+    build:
+      context: .
+      dockerfile: DeliverManagementService/Dockerfile
+    depends_on:
+        - rabbitmq
+        - myeurekaserver
+    container_name: assignment.delivermanagementservice
+
+  assignment.ordermanagementservice:
+    image: ${DOCKER_REGISTRY-}assignmentordermanagementservice
+    build:
+      context: .
+      dockerfile: OrderManagementService/Dockerfile
+    depends_on:
+        - rabbitmq
+        - myeurekaserver
+    container_name: assignment.ordermanagementservice
+
+  assignment.paymentmanagementservice:
+    image: ${DOCKER_REGISTRY-}assignmentpaymentmanagementservice
+    build:
+      context: .
+      dockerfile: PaymentManagementService/Dockerfile
+    depends_on:
+        - myeurekaserver
+    container_name: assignment.paymentmanagementservice
+
+  assignment.apigateway:
+    image: ${DOCKER_REGISTRY-}assignmentapigateway
+    ports:
+      - "5006:80"
+    build:
+      context: .
+      dockerfile: Assignment.ApiGateway/Dockerfile
+    depends_on:
+        - myeurekaserver
+    container_name: assignment.apigateway
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    container_name: rabbitmq
+
+  myeurekaserver:
+    image: steeltoeoss/eureka-server 
+    ports:
+      - "8761:8761"
+    container_name: myeurekaserver
+
+
+

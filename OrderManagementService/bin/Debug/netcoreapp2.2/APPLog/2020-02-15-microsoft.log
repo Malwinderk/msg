@@ -1,0 +1,31 @@
+2020-02-15 23:57:48.7263|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/values  
+2020-02-15 23:57:48.9439|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 23:57:48.9627|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller OrderManagementService.Controllers.ValuesController (OrderManagementService).
+2020-02-15 23:57:48.9779|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) - Validation state: Valid
+2020-02-15 23:57:48.9889|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.828ms.
+2020-02-15 23:57:49.0013|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2020-02-15 23:57:49.0371|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) in 64.7936ms
+2020-02-15 23:57:49.0445|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 23:57:49.0445|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 334.2463ms 200 application/json; charset=utf-8
+2020-02-15 23:57:52.6435|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/cart/addToCart/1  
+2020-02-15 23:57:52.6946|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2020-02-15 23:57:52.7025|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService)'
+2020-02-15 23:57:52.7195|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "AddItemToCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[OrderManagementService.Dtos.ResponseModel] AddItemToCart(Int32) on controller OrderManagementService.Controllers.CartController (OrderManagementService).
+2020-02-15 23:57:52.7337|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-15 23:57:52.7524|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService) - Validation state: Valid
+2020-02-15 23:57:52.7617|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.OkResult in 4.0239ms.
+2020-02-15 23:57:52.7617|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-02-15 23:57:52.7617|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService) in 50.0545ms
+2020-02-15 23:57:52.7793|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService)'
+2020-02-15 23:57:52.7793|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 181.2461ms 200 
+2020-02-15 23:57:56.4285|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/cart/getCart  
+2020-02-15 23:57:56.4354|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2020-02-15 23:57:56.4354|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.CartController.GetCart (OrderManagementService)'
+2020-02-15 23:57:56.4559|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[OrderManagementService.Dtos.ResponseModel] GetCart() on controller OrderManagementService.Controllers.CartController (OrderManagementService).
+2020-02-15 23:57:56.4559|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-15 23:57:56.4677|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.CartController.GetCart (OrderManagementService) - Validation state: Valid
+2020-02-15 23:59:24.8040|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.CartController.GetCart (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 88200.9007ms.
+2020-02-15 23:59:25.6994|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'OrderManagementService.Dtos.ResponseModel'.
+2020-02-15 23:59:27.2750|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.CartController.GetCart (OrderManagementService) in 90807.4458ms
+2020-02-15 23:59:27.2818|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.CartController.GetCart (OrderManagementService)'
+2020-02-15 23:59:27.2818|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90861.9564ms 200 application/json; charset=utf-8

@@ -1,0 +1,108 @@
+2020-02-15 22:14:28.3625|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/values  
+2020-02-15 22:14:28.6341|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 22:14:28.6641|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller OrderManagementService.Controllers.ValuesController (OrderManagementService).
+2020-02-15 22:14:28.7087|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) - Validation state: Valid
+2020-02-15 22:14:28.7372|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4113ms.
+2020-02-15 22:14:28.7511|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2020-02-15 22:14:28.8716|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) in 180.377ms
+2020-02-15 22:14:28.8907|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 22:14:28.9071|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 551.878ms 200 application/json; charset=utf-8
+2020-02-15 22:14:29.2001|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/favicon.ico  
+2020-02-15 22:14:29.2271|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.8518ms 404 
+2020-02-15 22:14:50.7740|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/cart/getCart  
+2020-02-15 22:14:50.8306|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2020-02-15 22:14:50.8506|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.CartController.GetCart (OrderManagementService)'
+2020-02-15 22:14:50.8643|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[OrderManagementService.Dtos.ResponseModel] GetCart() on controller OrderManagementService.Controllers.CartController (OrderManagementService).
+2020-02-15 22:14:50.9556|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-15 22:14:51.2075|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.CartController.GetCart (OrderManagementService) - Validation state: Valid
+2020-02-15 22:14:51.2835|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.CartController.GetCart (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.BadRequestResult in 50.3976ms.
+2020-02-15 22:14:51.2835|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2020-02-15 22:14:51.3082|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.CartController.GetCart (OrderManagementService) in 437.3591ms
+2020-02-15 22:14:51.3180|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.CartController.GetCart (OrderManagementService)'
+2020-02-15 22:14:51.3180|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 552.9415ms 400 application/problem+json; charset=utf-8
+2020-02-15 22:15:07.2270|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/cart/getCart  
+2020-02-15 22:15:07.2340|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2020-02-15 22:15:07.2340|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.CartController.GetCart (OrderManagementService)'
+2020-02-15 22:15:07.2527|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[OrderManagementService.Dtos.ResponseModel] GetCart() on controller OrderManagementService.Controllers.CartController (OrderManagementService).
+2020-02-15 22:15:07.2527|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-15 22:15:07.2666|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.CartController.GetCart (OrderManagementService) - Validation state: Valid
+2020-02-15 22:15:09.3072|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.CartController.GetCart (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.BadRequestResult in 2032.6124ms.
+2020-02-15 22:15:09.3141|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2020-02-15 22:15:09.3141|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.CartController.GetCart (OrderManagementService) in 2062.0687ms
+2020-02-15 22:15:09.3265|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.CartController.GetCart (OrderManagementService)'
+2020-02-15 22:15:09.3265|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2105.2107ms 400 application/problem+json; charset=utf-8
+2020-02-15 22:16:58.1550|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/values  
+2020-02-15 22:16:58.3370|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 22:16:58.3577|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller OrderManagementService.Controllers.ValuesController (OrderManagementService).
+2020-02-15 22:16:58.3801|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) - Validation state: Valid
+2020-02-15 22:16:58.3897|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.3476ms.
+2020-02-15 22:16:58.4043|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2020-02-15 22:16:58.4415|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) in 69.3002ms
+2020-02-15 22:16:58.4415|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 22:16:58.4625|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 312.2604ms 200 application/json; charset=utf-8
+2020-02-15 22:20:31.2882|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/values  
+2020-02-15 22:20:31.4439|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 22:20:31.4618|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller OrderManagementService.Controllers.ValuesController (OrderManagementService).
+2020-02-15 22:20:31.4795|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) - Validation state: Valid
+2020-02-15 22:20:31.4877|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4199ms.
+2020-02-15 22:20:31.5017|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2020-02-15 22:20:31.5342|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) in 61.593ms
+2020-02-15 22:20:31.5494|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 22:20:31.5584|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 277.2334ms 200 application/json; charset=utf-8
+2020-02-15 23:51:09.9504|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/values  
+2020-02-15 23:51:10.1662|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 23:51:10.1994|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller OrderManagementService.Controllers.ValuesController (OrderManagementService).
+2020-02-15 23:51:10.2249|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) - Validation state: Valid
+2020-02-15 23:51:10.2396|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5524ms.
+2020-02-15 23:51:10.2587|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2020-02-15 23:51:10.2949|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) in 87.7154ms
+2020-02-15 23:51:10.3024|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 23:51:10.3918|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 369.5856ms 200 application/json; charset=utf-8
+2020-02-15 23:53:14.2405|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/cart/getCart  
+2020-02-15 23:53:14.2966|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2020-02-15 23:53:14.2966|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.CartController.GetCart (OrderManagementService)'
+2020-02-15 23:53:14.3167|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[OrderManagementService.Dtos.ResponseModel] GetCart() on controller OrderManagementService.Controllers.CartController (OrderManagementService).
+2020-02-15 23:53:14.3320|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-15 23:53:14.3320|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.CartController.GetCart (OrderManagementService) - Validation state: Valid
+2020-02-15 23:55:16.9554|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/values  
+2020-02-15 23:55:17.1156|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 23:55:17.1359|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller OrderManagementService.Controllers.ValuesController (OrderManagementService).
+2020-02-15 23:55:17.1555|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) - Validation state: Valid
+2020-02-15 23:55:17.1555|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.ValuesController.Get (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4287ms.
+2020-02-15 23:55:17.1754|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2020-02-15 23:55:17.2079|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.ValuesController.Get (OrderManagementService) in 59.9367ms
+2020-02-15 23:55:17.2079|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.ValuesController.Get (OrderManagementService)'
+2020-02-15 23:55:17.2283|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 289.865ms 200 application/json; charset=utf-8
+2020-02-15 23:55:27.4820|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/cart/addToCart/1  
+2020-02-15 23:55:27.5223|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2020-02-15 23:55:27.5335|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService)'
+2020-02-15 23:55:27.5517|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "AddItemToCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[OrderManagementService.Dtos.ResponseModel] AddItemToCart(Int32) on controller OrderManagementService.Controllers.CartController (OrderManagementService).
+2020-02-15 23:55:27.5658|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-15 23:55:27.5853|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService) - Validation state: Valid
+2020-02-15 23:55:27.5945|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.OkResult in 4.6081ms.
+2020-02-15 23:55:27.5945|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-02-15 23:55:27.6069|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService) in 50.2525ms
+2020-02-15 23:55:27.6069|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService)'
+2020-02-15 23:55:27.6069|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 139.3436ms 200 
+2020-02-15 23:55:54.3443|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/cart/addToCart/1  
+2020-02-15 23:55:54.3443|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2020-02-15 23:55:54.3627|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService)'
+2020-02-15 23:55:54.3627|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "AddItemToCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[OrderManagementService.Dtos.ResponseModel] AddItemToCart(Int32) on controller OrderManagementService.Controllers.CartController (OrderManagementService).
+2020-02-15 23:55:54.3745|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-15 23:55:54.3745|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService) - Validation state: Valid
+2020-02-15 23:55:54.5501|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.4518ms.
+2020-02-15 23:55:54.5815|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-02-15 23:55:54.7421|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService) in 307.1196ms
+2020-02-15 23:55:54.7606|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.CartController.AddItemToCart (OrderManagementService)'
+2020-02-15 23:55:54.7780|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 422.2737ms 200 
+2020-02-15 23:56:10.3247|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44326/api/cart/getCart  
+2020-02-15 23:56:10.3247|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2020-02-15 23:56:10.3442|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OrderManagementService.Controllers.CartController.GetCart (OrderManagementService)'
+2020-02-15 23:56:10.3442|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[OrderManagementService.Dtos.ResponseModel] GetCart() on controller OrderManagementService.Controllers.CartController (OrderManagementService).
+2020-02-15 23:56:10.3592|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-15 23:56:10.3592|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OrderManagementService.Controllers.CartController.GetCart (OrderManagementService) - Validation state: Valid
+2020-02-15 23:56:10.6397|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OrderManagementService.Controllers.CartController.GetCart (OrderManagementService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 271.1044ms.
+2020-02-15 23:56:10.6397|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'OrderManagementService.Dtos.ResponseModel'.
+2020-02-15 23:56:10.6575|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OrderManagementService.Controllers.CartController.GetCart (OrderManagementService) in 299.3226ms
+2020-02-15 23:56:10.6575|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OrderManagementService.Controllers.CartController.GetCart (OrderManagementService)'
+2020-02-15 23:56:10.6699|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 346.0563ms 200 application/json; charset=utf-8

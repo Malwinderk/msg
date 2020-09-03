@@ -1,0 +1,8 @@
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\bin\Release\netcoreapp2.2\Assignment.Shared.deps.json
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\bin\Release\netcoreapp2.2\Assignment.Shared.dll
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\bin\Release\netcoreapp2.2\Assignment.Shared.pdb
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Release\netcoreapp2.2\Assignment.Shared.csproj.CoreCompileInputs.cache
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Release\netcoreapp2.2\Assignment.Shared.AssemblyInfoInputs.cache
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Release\netcoreapp2.2\Assignment.Shared.AssemblyInfo.cs
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Release\netcoreapp2.2\Assignment.Shared.dll
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Release\netcoreapp2.2\Assignment.Shared.pdb

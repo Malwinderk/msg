@@ -1,0 +1,16 @@
+2020-02-15 22:20:37.8440 Info Message Template Auto Format enabled
+2020-02-15 22:20:37.9543 Info Adding target FileTarget(Name=infofile)
+2020-02-15 22:20:37.9782 Info Adding target FileTarget(Name=debugfile)
+2020-02-15 22:20:37.9848 Info Adding target FileTarget(Name=errorfile)
+2020-02-15 22:20:37.9848 Info Adding target FileTarget(Name=microsoftfile)
+2020-02-15 22:20:38.0412 Info Found 64 configuration items
+2020-02-15 22:20:38.0634 Info Configuration initialized.
+2020-02-15 22:20:38.0866 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.7.10445. Product version: 4.6.7.
+2020-02-15 22:20:38.1039 Info Configuring from an XML element in D:\NAGP\NAGPAssignment\Assignment\DeliverManagementService\bin\Release\netcoreapp2.2\nlog.config...
+2020-02-15 22:20:38.1110 Info Message Template Auto Format enabled
+2020-02-15 22:20:38.1110 Info Adding target FileTarget(Name=infofile)
+2020-02-15 22:20:38.1210 Info Adding target FileTarget(Name=debugfile)
+2020-02-15 22:20:38.1210 Info Adding target FileTarget(Name=errorfile)
+2020-02-15 22:20:38.1210 Info Adding target FileTarget(Name=microsoftfile)
+2020-02-15 22:20:38.1380 Info Closing old configuration.
+2020-02-15 22:20:38.1643 Info Found 64 configuration items

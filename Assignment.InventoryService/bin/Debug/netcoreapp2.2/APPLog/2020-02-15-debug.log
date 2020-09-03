@@ -1,0 +1,2 @@
+2020-02-15 23:57:46.9989|DEBUG|Assignment.InventoryService.Manager.LogManager|Saving product in inventory with Id: 1
+2020-02-15 23:58:45.1381|DEBUG|Assignment.InventoryService.Manager.LogManager|get product by id: 1

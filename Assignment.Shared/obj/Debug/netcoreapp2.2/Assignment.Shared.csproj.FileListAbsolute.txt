@@ -1,0 +1,9 @@
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\bin\Debug\netcoreapp2.2\Assignment.Shared.deps.json
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\bin\Debug\netcoreapp2.2\Assignment.Shared.dll
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\bin\Debug\netcoreapp2.2\Assignment.Shared.pdb
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Debug\netcoreapp2.2\Assignment.Shared.csproj.CoreCompileInputs.cache
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Debug\netcoreapp2.2\Assignment.Shared.AssemblyInfoInputs.cache
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Debug\netcoreapp2.2\Assignment.Shared.AssemblyInfo.cs
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Debug\netcoreapp2.2\Assignment.Shared.dll
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Debug\netcoreapp2.2\Assignment.Shared.pdb
+D:\NAGP\NAGPAssignment\Assignment\Assignment.Shared\obj\Debug\netcoreapp2.2\Assignment.Shared.csprojAssemblyReference.cache

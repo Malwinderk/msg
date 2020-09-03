@@ -1,0 +1,194 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/user/login",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/login",
+      "ServiceName": "LoginService",
+      "UpstreamHttpMethod": [ "Post" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 4000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/inventory/product/add",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/addProduct",
+      "ServiceName": "InventoryService",
+      "UpstreamHttpMethod": [ "Post" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 4000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/inventory/product/delete",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/deleteProduct",
+      "ServiceName": "InventoryService",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 4000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/inventory/product/{productName}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/searchProduct/{productName}",
+      "ServiceName": "InventoryService",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 4000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/cart/addToCart/{productId}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/addToCart/{productId}",
+      "ServiceName": "OrderService",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 4000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/cart/getCart",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/getCart",
+      "ServiceName": "OrderService",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 4000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/cart/placeOrder",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/placeOrder",
+      "ServiceName": "OrderService",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 4000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/cart/markAsPaid",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/markAsPaid",
+      "ServiceName": "OrderService",
+      "UpstreamHttpMethod": [ "Post" ],
+      //"QoSOptions": {
+      //  "ExceptionsAllowedBeforeBreaking": 2,
+      //  "DurationOfBreak": 60000,
+      //  "TimeoutValue": 4000
+      //},
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/cart/getOrders",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/getOrders",
+      "ServiceName": "OrderService",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 4000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/delivery/markDelivered/{orderId}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/markDelivered/{orderId}",
+      "ServiceName": "DeliveryService",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 2000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/delivery/markUndelivered/{orderId}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/markUndelivered/{orderId}",
+      "ServiceName": "DeliveryService",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 4000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/payment/makePayment",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/makePayment",
+      "ServiceName": "PaymentService",
+      "UpstreamHttpMethod": [ "Post" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 60000,
+        "TimeoutValue": 2000
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration",
+    "UseServiceDiscovery": true,
+    "ServiceDiscoveryProvider": {
+      "Type": "Eureka",
+      "Host": "localhost",
+      "Port": "8761"
+    }
+  }
+}

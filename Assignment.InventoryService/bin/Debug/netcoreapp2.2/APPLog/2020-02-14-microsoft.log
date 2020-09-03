@@ -1,0 +1,11 @@
+2020-02-14 18:06:50.9038|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44394/api/values  
+2020-02-14 18:06:51.2394|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Assignment.InventoryService.Controllers.ValuesController.Get (Assignment.InventoryService)'
+2020-02-14 18:06:51.2987|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller Assignment.InventoryService.Controllers.ValuesController (Assignment.InventoryService).
+2020-02-14 18:06:51.3411|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Assignment.InventoryService.Controllers.ValuesController.Get (Assignment.InventoryService) - Validation state: Valid
+2020-02-14 18:06:51.3580|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Assignment.InventoryService.Controllers.ValuesController.Get (Assignment.InventoryService), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.3664ms.
+2020-02-14 18:06:51.3738|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2020-02-14 18:06:51.4956|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Assignment.InventoryService.Controllers.ValuesController.Get (Assignment.InventoryService) in 153.1431ms
+2020-02-14 18:06:51.5040|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Assignment.InventoryService.Controllers.ValuesController.Get (Assignment.InventoryService)'
+2020-02-14 18:06:51.5347|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 624.8635ms 200 application/json; charset=utf-8
+2020-02-14 18:06:51.8262|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44394/favicon.ico  
+2020-02-14 18:06:51.8376|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.2205ms 404 
